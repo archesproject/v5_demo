@@ -1,0 +1,16 @@
+v5_demo/settings_local.py
+v5_demo/uploadedfiles
+arches.log
+*.pyc
+v5_demo/media/packages
+v5_demo/logs/*.log
+v5_demo/uploadedfiles
+v5_demo/ontologies/*.xml
+arches.log
+*.sublime*
+.DS_Store
+*.djcache
+v5_demo/node_modules
+.vscode/
+Procfile
+
