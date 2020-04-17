@@ -65,11 +65,14 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                     </button>
                     
                     <div class="relative" style="padding: 8px 10px 8px 100px; width: 300px;">
-                        <div class="navbar-brand-v5-icon-container" style="">
+                        <!--<div class="navbar-brand-v5-icon-container" style="">
                             <img class="navbar-brand-v5-icon" src="{% static 'img/landing/arches_logo_dark.png' %}" style="" alt="Arches Logo">
+                        </div>-->
+                        <div>
+                            <img src="https://www.archesproject.org/wp-content/uploads/2020/02/ARP_logo_reverse_R-1.png" style="height: 20px;" alt="Arches Logo">
                         </div>
                         <div class="application-name" style="position: absolute; top: 5px; left: 160px;">
-                            <h2>{% trans "Arches | v5" %}</h2>
+                            <h2>{% trans "v5 Demo" %}</h2>
                         </div>
                     </div>
                 </div>
@@ -98,7 +101,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                     <ul class="nav navbar-nav navbar-right" style="padding-right: 80px;">
                         <li class="">
                             {% if user.username == 'anonymous' %}
-                                <a class="application-login" id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Sign in" %}</a>
+                                <a class="application-login" id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Login" %}</a>
                             {% else %}
                                 <a class="auth-welcome" href="{% url 'user_profile_manager' %}">
                                     {% trans "Welcome, " %} {{ user.first_name|default:user.username }}
@@ -435,14 +438,15 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
     <!-- End Footer -->
 
     <!-- Copyright Panel -->
-    <div class="copyright-container">
-        <!-- Arches link -->
+    <!--
+    <div class="copyright-container">-->
+        <!-- Arches link --><!--
         <div class="app-footer-links">
             <a class="link-spacing" href="">{% trans "Terms & Conditions" %}</a>
             <a class="link-spacing" href="">{% trans "Privacy Policy" %}</a>
-            <a class="app-footer-arches-link" href="http://www.archesproject.org" target="_blank">Powered by Arches</a>
-        </div>
-    </div>
+            <a class="app-footer-arches-link" href="http://www.archesproject.org" target="_blank"><img src="{% static 'img/landing/Arches_badge_red_white_powered_by_2.png' %}" alt="Powered by Arches"></a>
+        </div> 
+    </div> -->
     <!-- End Copyright Container -->
 
 
