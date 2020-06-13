@@ -30,8 +30,11 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
             <div class="panel-body">
                 <h3 class="login-panel-header arches-signin">{% trans "Create Account" %}</h3>
                 <p class="arches-signin-subtext">
-                    Register and create an account to with the Arches v5 demo site to access additional features, including data editing and access to mobile data collection via Arches Collector. 
+                    Register and create an account to with the Arches v5 demo site to access additional features, including data editing and access to the Reference Data Manager. 
                 </p>
+                <!--<p class="arches-signin-subtext">
+                    Register and create an account to with the Arches v5 demo site to access additional features, including data editing and access to mobile data collection via Arches Collector. 
+                </p>-->
 		<p><strong> For the demo refresh schedule, click <a href="https://www.archesproject.org/demo" style="color:darkred;">HERE</a>. All data stored on this demo site, including user accounts, will deleted according to this schedule.</strong></p>
                 <form class="change-password-form" action="?next={{ next }}" method='POST' {% if auth_failed %} autocomplete="off" {% endif %}>
                     {% csrf_token %}
