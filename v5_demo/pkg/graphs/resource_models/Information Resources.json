@@ -16,7 +16,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Select keywords associated with the resource.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Keyword",
                     "nodegroup_id": "6b371a68-e505-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": null,
@@ -35,7 +35,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Select language of the information resource.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Language",
                     "nodegroup_id": "6b371a71-e505-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": null,
@@ -54,7 +54,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Describe the copyright for the information resource.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Copyright",
                     "nodegroup_id": "6b371a50-e505-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": null,
@@ -130,7 +130,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Select the date of the publication for the information resource.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Publication Date",
                     "nodegroup_id": "6b371a77-e505-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 0,
@@ -149,7 +149,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Describe the location of the resource.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Description Location",
                     "nodegroup_id": "6b371a5f-e505-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 2,
@@ -187,7 +187,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Describe the temporal coverage of the information resource's subject. ",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Temporal Coverage",
                     "nodegroup_id": "6b371a59-e505-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": null,
@@ -225,7 +225,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Define the spatial location.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Spatial Location",
                     "nodegroup_id": "6b371a53-e505-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 0,
@@ -282,7 +282,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Select the administrative/governmental subdivision name and type.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Administration Subdivision",
                     "nodegroup_id": "6b371a65-e505-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 1,
@@ -301,7 +301,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Publication Event",
                     "nodegroup_id": "6b371a5c-e505-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": null,
@@ -982,7 +982,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "id": "bada250f-6c40-11e9-b337-02676970ea56"
+                    "id": "585ae48d-e0ca-11ea-9015-025bb3594503"
                 }
             ],
             "graphid": "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
@@ -1032,13 +1032,7 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "6b371a77-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "parentnodegroup_id": "6b371a5c-e505-11e7-b2cc-02e0c6d7ad7a"
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "6b371a6e-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "nodegroupid": "6b371a5c-e505-11e7-b2cc-02e0c6d7ad7a",
                     "parentnodegroup_id": null
                 },
                 {
@@ -1050,19 +1044,25 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "6b371a59-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "6b371a5c-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "nodegroupid": "6b371a6e-e505-11e7-b2cc-02e0c6d7ad7a",
                     "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "6b371a68-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "6b371a77-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "parentnodegroup_id": "6b371a5c-e505-11e7-b2cc-02e0c6d7ad7a"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "6b371a59-e505-11e7-b2cc-02e0c6d7ad7a",
                     "parentnodegroup_id": null
                 },
                 {
@@ -1092,61 +1092,11 @@
             ],
             "nodes": [
                 {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Information Resource Creation",
-                    "nodegroup_id": "6b371a6e-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "6b371a6e-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E65_Creation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Publication Event",
-                    "nodegroup_id": "6b371a77-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "6b371a77-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E12_Production",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Temporal Coverage",
-                    "nodegroup_id": "6b371a59-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "6b371a59-e505-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
+                    "config": {
+                        "activateMax": false,
+                        "maxFileSize": null,
+                        "maxFiles": 1
+                    },
                     "datatype": "file-list",
                     "description": "",
                     "exportable": false,
@@ -1199,6 +1149,60 @@
                     "nodeid": "6b371a68-e505-11e7-b2cc-02e0c6d7ad7a",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Information Resource Creation",
+                    "nodegroup_id": "6b371a6e-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "6b371a6e-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E65_Creation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Publication Event",
+                    "nodegroup_id": "6b371a77-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "6b371a77-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E12_Production",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Temporal Coverage",
+                    "nodegroup_id": "6b371a59-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "6b371a59-e505-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
                     "sortorder": 0
                 },
                 {
@@ -1806,12 +1810,7 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [
-                "23a06a1c-9fdc-11e7-b2cc-02e0c6d7ad7a",
-                "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
-                "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
-                "5f1b17b2-e506-11e7-b2cc-02e0c6d7ad7a"
-            ],
+            "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
                 "config": {
@@ -1840,8 +1839,8 @@
     ],
     "metadata": {
         "db": "PostgreSQL 12.1 (Ubuntu 12.1-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "eea31b4f1 2020-01-20 12:37:08 -0800",
+        "git hash": "0c1db54a6 2020-04-17 13:50:04 -0700",
         "os": "Linux",
-        "os version": "4.15.0-1051-aws"
+        "os version": "5.3.0-1017-aws"
     }
 }
