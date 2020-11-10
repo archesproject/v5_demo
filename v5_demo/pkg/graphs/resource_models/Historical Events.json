@@ -7695,32 +7695,33 @@
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
                 {
-                    "card_id": "1b0076c6-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "1b0076b4-e506-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Administrative Subdivision Type",
-                        "options": [],
-                        "placeholder": "Select an option"
+                        "label": "Place Address",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
                     },
-                    "id": "f5af2e09-eff5-11e7-ae2d-02b2d3297e3a",
-                    "label": "Administrative Subdivision Type",
-                    "node_id": "1b0076e5-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 0,
+                    "id": "f5af2e0c-eff5-11e7-ae2d-02b2d3297e3a",
+                    "label": "Place Address",
+                    "node_id": "1b0076b2-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 1,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "1b0076cc-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "1b0076b4-e506-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Geometry Qualifier",
+                        "label": "Address Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
-                    "id": "f5af2e0e-eff5-11e7-ae2d-02b2d3297e3a",
-                    "label": "Geometry Qualifier",
-                    "node_id": "1b0076ce-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 1,
+                    "id": "f5af2e0b-eff5-11e7-ae2d-02b2d3297e3a",
+                    "label": "Address Type",
+                    "node_id": "1b0076e3-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -7739,6 +7740,37 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "1b0076b7-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Cadastral Reference",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "f5af2e0f-eff5-11e7-ae2d-02b2d3297e3a",
+                    "label": "Cadastral Reference",
+                    "node_id": "1b0076b5-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "1b0076cc-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Geometry Qualifier",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "f5af2e0e-eff5-11e7-ae2d-02b2d3297e3a",
+                    "label": "Geometry Qualifier",
+                    "node_id": "1b0076ce-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "1b0076cc-e506-11e7-b2cc-02e0c6d7ad7a",
@@ -7786,32 +7818,16 @@
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
-                    "card_id": "1b0076b4-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "1b0076c6-e506-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Place Address",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "f5af2e0c-eff5-11e7-ae2d-02b2d3297e3a",
-                    "label": "Place Address",
-                    "node_id": "1b0076b2-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "1b0076b4-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Address Type",
+                        "label": "Administrative Subdivision Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
-                    "id": "f5af2e0b-eff5-11e7-ae2d-02b2d3297e3a",
-                    "label": "Address Type",
-                    "node_id": "1b0076e3-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "id": "f5af2e09-eff5-11e7-ae2d-02b2d3297e3a",
+                    "label": "Administrative Subdivision Type",
+                    "node_id": "1b0076e5-e506-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
@@ -7829,22 +7845,6 @@
                     "label": "Administrative Subdivision Name",
                     "node_id": "1b0076e4-e506-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "1b0076b7-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Cadastral Reference",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "f5af2e0f-eff5-11e7-ae2d-02b2d3297e3a",
-                    "label": "Cadastral Reference",
-                    "node_id": "1b0076b5-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
@@ -8118,7 +8118,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "id": "56eaead6-e0ca-11ea-9015-025bb3594503"
+                    "id": "e2dd991e-0e45-11eb-92bf-025bb3594503"
                 }
             ],
             "graphid": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
@@ -8130,15 +8130,21 @@
             "name": "Historical Events",
             "nodegroups": [
                 {
-                    "cardinality": "n",
+                    "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "1b0076c4-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodegroupid": "1b0076ca-e506-11e7-b2cc-02e0c6d7ad7a",
                     "parentnodegroup_id": "1b0076af-e506-11e7-b2cc-02e0c6d7ad7a"
                 },
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "1b0076a9-e506-11e7-b2cc-02e0c6d7ad7a",
                     "parentnodegroup_id": null
                 },
                 {
@@ -8172,16 +8178,10 @@
                     "parentnodegroup_id": "1b0076af-e506-11e7-b2cc-02e0c6d7ad7a"
                 },
                 {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "1b0076ca-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "parentnodegroup_id": "1b0076af-e506-11e7-b2cc-02e0c6d7ad7a"
-                },
-                {
                     "cardinality": "n",
                     "legacygroupid": null,
-                    "nodegroupid": "1b0076c7-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "parentnodegroup_id": null
+                    "nodegroupid": "1b0076c4-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "parentnodegroup_id": "1b0076af-e506-11e7-b2cc-02e0c6d7ad7a"
                 },
                 {
                     "cardinality": "n",
@@ -8192,7 +8192,7 @@
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
-                    "nodegroupid": "1b0076a9-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodegroupid": "1b0076c7-e506-11e7-b2cc-02e0c6d7ad7a",
                     "parentnodegroup_id": null
                 }
             ],
@@ -8309,22 +8309,43 @@
                 },
                 {
                     "config": {
-                        "fillColor": "rgba(42,234,106,0.8)"
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(42,234,106,0.8)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(42,234,106,0.8)",
+                        "lineHaloColor": "rgba(42,234,106,0.2)",
+                        "outlineColor": "rgba(42,234,106,0.2)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(42,234,106,0.8)",
+                        "pointHaloColor": "rgba(42,234,106,0.2)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
                     },
-                    "datatype": "semantic",
-                    "description": "",
+                    "datatype": "geojson-feature-collection",
+                    "description": "Represents a single node in a graph",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
-                    "istopnode": true,
-                    "name": "Historical Event",
-                    "nodegroup_id": null,
-                    "nodeid": "1b0076cf-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
-                    "parentproperty": "",
+                    "istopnode": false,
+                    "name": "Spatial Coordinates Geometry",
+                    "nodegroup_id": "1b0076ca-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076ca-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
                     "sortorder": 0
                 },
                 {
@@ -8707,48 +8728,36 @@
                 },
                 {
                     "config": {
-                        "addToMap": false,
-                        "advancedStyle": "",
-                        "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
-                        "fillColor": "rgba(42,234,106,0.8)",
-                        "haloRadius": 4,
-                        "haloWeight": 4,
-                        "layerActivated": true,
-                        "layerIcon": "",
-                        "layerLegend": "",
-                        "layerName": "",
-                        "lineColor": "rgba(42,234,106,0.8)",
-                        "lineHaloColor": "rgba(42,234,106,0.2)",
-                        "outlineColor": "rgba(42,234,106,0.2)",
-                        "outlineWeight": 2,
-                        "pointColor": "rgba(42,234,106,0.8)",
-                        "pointHaloColor": "rgba(42,234,106,0.2)",
-                        "radius": 2,
-                        "simplification": 0.3,
-                        "weight": 2
+                        "fillColor": "rgba(42,234,106,0.8)"
                     },
-                    "datatype": "geojson-feature-collection",
-                    "description": "Represents a single node in a graph",
+                    "datatype": "semantic",
+                    "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": true,
+                    "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
-                    "istopnode": false,
-                    "name": "Spatial Coordinates Geometry",
-                    "nodegroup_id": "1b0076ca-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076ca-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
+                    "istopnode": true,
+                    "name": "Historical Events",
+                    "nodegroup_id": null,
+                    "nodeid": "1b0076cf-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                    "parentproperty": "",
                     "sortorder": 0
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
+                "cd37476e-e503-11e7-b2cc-02e0c6d7ad7a",
+                "23a06a1c-9fdc-11e7-b2cc-02e0c6d7ad7a",
+                "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
+                "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
+                "5f1b17b2-e506-11e7-b2cc-02e0c6d7ad7a"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "config": {
@@ -8763,7 +8772,7 @@
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
-                "name": "Historical Event",
+                "name": "Historical Events",
                 "nodegroup_id": null,
                 "nodeid": "1b0076cf-e506-11e7-b2cc-02e0c6d7ad7a",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",

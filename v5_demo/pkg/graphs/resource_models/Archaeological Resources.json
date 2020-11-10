@@ -5,6 +5,25 @@
             "cards": [
                 {
                     "active": true,
+                    "cardid": "b3dd290e-0de1-11e8-ae2d-02b2d3297e3a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i",
+                    "graph_id": "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": "Enter a description and description type for the resource.",
+                    "is_editable": false,
+                    "name": "Description",
+                    "nodegroup_id": "b3dd290c-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "b3dd2911-0de1-11e8-ae2d-02b2d3297e3a",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -35,7 +54,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "This card ties together a Related/Acillary Features and Use Type with timeframe based on cultural period or actual dates.  For a separate combination Related/Ancillary Features and Use Type, create a separate entry.",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Related/Ancillary Feature",
                     "nodegroup_id": "b3dd2903-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": 2,
@@ -54,7 +73,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Describe modification or alteration to the resource.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Alterations",
                     "nodegroup_id": "b3dd28e5-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": null,
@@ -73,7 +92,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Define the resource's designation or protection status.",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Designation or Protection",
                     "nodegroup_id": "b3dd28cd-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": 0,
@@ -111,7 +130,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Select keywords associated with the resource.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Keyword",
                     "nodegroup_id": "b3dd28d0-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": null,
@@ -206,7 +225,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Right",
                     "nodegroup_id": "b3dd2906-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": null,
@@ -228,25 +247,6 @@
                     "is_editable": false,
                     "name": "Resource Type Classification",
                     "nodegroup_id": "b3dd28f1-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": null,
-                    "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "b3dd290e-0de1-11e8-ae2d-02b2d3297e3a",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i",
-                    "graph_id": "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Enter a description and description type for the resource.",
-                    "is_editable": false,
-                    "name": "Description",
-                    "nodegroup_id": "b3dd290c-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": null,
                     "visible": true
                 },
@@ -358,7 +358,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "This card ties together a Style and Use Type with timeframe based on cultural period or actual dates.  For a separate combination Style and Use Type, create a separate entry.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Style",
                     "nodegroup_id": "b3dd2900-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": 1,
@@ -453,7 +453,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "One assessment of condition at a particular point in time. ",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Condition Assessment",
                     "nodegroup_id": "b3dd2918-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": null,
@@ -462,20 +462,19 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "b3dd28e4-0de1-11e8-ae2d-02b2d3297e3a",
+                    "card_id": "b3dd28f0-0de1-11e8-ae2d-02b2d3297e3a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Place Description",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
+                        "label": "Geometry Qualifier",
+                        "options": [],
+                        "placeholder": "Select an option"
                     },
-                    "id": "b3dd2968-0de1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Place Description",
-                    "node_id": "b3dd2961-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 0,
+                    "id": "b3dd2975-0de1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Geometry Qualifier",
+                    "node_id": "b3dd2966-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 1,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "b3dd2911-0de1-11e8-ae2d-02b2d3297e3a",
@@ -507,313 +506,6 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "b3dd28ed-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Archaeological Resource Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "76d2f4a9-0de2-11e8-ae2d-02b2d3297e3a",
-                    "label": "Archaeological Resource Type",
-                    "node_id": "b3dd2929-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "b3dd28ed-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Archaeological Resource Type Cultural Period",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "76d2f4aa-0de2-11e8-ae2d-02b2d3297e3a",
-                    "label": "Archaeological Resource Type Cultural Period",
-                    "node_id": "b3dd2950-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
-                },
-                {
-                    "card_id": "b3dd28ed-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Archaeological Resource Type To Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "76d2f4a8-0de2-11e8-ae2d-02b2d3297e3a",
-                    "label": "Archaeological Resource Type To Date",
-                    "node_id": "b3dd2942-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "b3dd28ed-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Archaeolgical Resource Type From Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "76d2f4a6-0de2-11e8-ae2d-02b2d3297e3a",
-                    "label": "Archaeolgical Resource Type From Date",
-                    "node_id": "b3dd2951-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "b3dd2923-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Place Address",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "b3dd2969-0de1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Place Address",
-                    "node_id": "b3dd2921-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "b3dd2923-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Address Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "b3dd2970-0de1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Address Type",
-                    "node_id": "b3dd2943-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "b3dd28d5-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Start Date of Existence",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "c4c49600-18ce-11e8-ae2d-02b2d3297e3a",
-                    "label": "Start Date of Existence",
-                    "node_id": "b3dd2941-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
-                },
-                {
-                    "card_id": "b3dd28d5-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "End Date of Existence",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "c4c49603-18ce-11e8-ae2d-02b2d3297e3a",
-                    "label": "End Date of Existence",
-                    "node_id": "b3dd2960-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
-                },
-                {
-                    "card_id": "b3dd28d5-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Start Date Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "c4c49601-18ce-11e8-ae2d-02b2d3297e3a",
-                    "label": "Start Date Type",
-                    "node_id": "b3dd2962-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "b3dd2917-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Name",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "b3dd296a-0de1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Name",
-                    "node_id": "b3dd2915-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "b3dd28f0-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Geometry Qualifier",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "b3dd2975-0de1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Geometry Qualifier",
-                    "node_id": "b3dd2966-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "b3dd2914-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Cadastral Reference",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "b3dd296d-0de1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Cadastral Reference",
-                    "node_id": "b3dd2912-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "b3dd2917-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Name Type",
-                        "options": [
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "866e8d3b-e00a-4559-bf23-dc1812c27e1f",
-                                "id": "81dd62d2-6701-4195-b74b-8057456bba4b",
-                                "sortorder": "1",
-                                "text": "Primary"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "86708338-1305-459e-9cff-7ee0db2a40e4",
-                                "id": "ecb20ae9-a457-4011-83bf-1c936e2d6b6a",
-                                "sortorder": "2",
-                                "text": "Alternative"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "b193cf22-36fc-4024-ae66-fb1a387c6db0",
-                                "id": "7ad76f8c-ffae-4773-b415-899fbf2a6ffd",
-                                "sortorder": "3",
-                                "text": "Historic"
-                            },
-                            {
-                                "children": [
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "884b086e-50a0-4524-a927-4897f0c7452b",
-                                        "id": "11e60ad2-7dca-47ef-81ff-24561bc45cd6",
-                                        "sortorder": "",
-                                        "text": "California Historic Landmark"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "de9d5536-4860-4821-9419-4f66b0897c8f",
-                                        "id": "0ad1919d-48ed-4957-9c51-6e3ec439323d",
-                                        "sortorder": "",
-                                        "text": "California Point of Historical Interest"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "cd4c796f-73f8-4cba-8cdc-8cc069c7bcfb",
-                                        "id": "3d2ef9d9-e2f1-4286-8922-1b153504e6f5",
-                                        "sortorder": "",
-                                        "text": "California Register of Historic Resources"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "3a6db05d-6897-4021-a087-0d4989faaa06",
-                                        "id": "726d46f0-5780-422d-8116-fd25e5dd5aee",
-                                        "sortorder": "",
-                                        "text": "Los Angeles Historic Cultural Monument"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "a7bc4fa3-73d2-498b-a604-ecbc0e18bf55",
-                                        "id": "26f8294c-98ff-452c-ac3f-a78eb430df93",
-                                        "sortorder": "",
-                                        "text": "Los Angeles Historic Preservation Overlay Zone"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "6821ec06-03a5-4773-8190-496d41564e70",
-                                        "id": "14dfac42-ed63-4a51-aa99-d846a0e2f9cf",
-                                        "sortorder": "",
-                                        "text": "National Historic Landmark"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "f1cece23-e8bc-4a54-93b8-2c609d915287",
-                                        "id": "53af5a29-e5e5-4893-b5a3-432b19c10440",
-                                        "sortorder": "",
-                                        "text": "National Monument"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "b800a93f-1429-4fee-a3b6-e1fa55e12c9b",
-                                        "id": "f7aecc0c-9022-440f-a934-7c9456281fd1",
-                                        "sortorder": "",
-                                        "text": "National Register of Historic Places"
-                                    }
-                                ],
-                                "collector": "collector",
-                                "conceptid": "163cd597-6848-4109-a7b0-56ca98003f85",
-                                "sortorder": "4",
-                                "text": "Designation Names"
-                            }
-                        ],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "b3dd2971-0de1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Name Type",
-                    "node_id": "b3dd2948-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "b3dd2905-0de1-11e8-ae2d-02b2d3297e3a",
@@ -933,6 +625,57 @@
                 {
                     "card_id": "b3dd28d5-0de1-11e8-ae2d-02b2d3297e3a",
                     "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Start Date of Existence",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "c4c49600-18ce-11e8-ae2d-02b2d3297e3a",
+                    "label": "Start Date of Existence",
+                    "node_id": "b3dd2941-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "b3dd28d5-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "End Date of Existence",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "c4c49603-18ce-11e8-ae2d-02b2d3297e3a",
+                    "label": "End Date of Existence",
+                    "node_id": "b3dd2960-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "b3dd28d5-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Start Date Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "c4c49601-18ce-11e8-ae2d-02b2d3297e3a",
+                    "label": "Start Date Type",
+                    "node_id": "b3dd2962-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "b3dd28d5-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
                         "defaultValue": "",
                         "label": "End Date Type",
                         "options": [],
@@ -946,19 +689,133 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "b3dd28f6-0de1-11e8-ae2d-02b2d3297e3a",
+                    "card_id": "b3dd28ed-0de1-11e8-ae2d-02b2d3297e3a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Material",
+                        "label": "Archaeological Resource Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
-                    "id": "5609982f-0de2-11e8-ae2d-02b2d3297e3a",
-                    "label": "Material",
-                    "node_id": "b3dd293b-0de1-11e8-ae2d-02b2d3297e3a",
+                    "id": "76d2f4a9-0de2-11e8-ae2d-02b2d3297e3a",
+                    "label": "Archaeological Resource Type",
+                    "node_id": "b3dd2929-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "b3dd28ed-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Archaeological Resource Type Cultural Period",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "76d2f4aa-0de2-11e8-ae2d-02b2d3297e3a",
+                    "label": "Archaeological Resource Type Cultural Period",
+                    "node_id": "b3dd2950-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "b3dd28ed-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Archaeological Resource Type To Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "76d2f4a8-0de2-11e8-ae2d-02b2d3297e3a",
+                    "label": "Archaeological Resource Type To Date",
+                    "node_id": "b3dd2942-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "b3dd28ed-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Archaeolgical Resource Type From Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "76d2f4a6-0de2-11e8-ae2d-02b2d3297e3a",
+                    "label": "Archaeolgical Resource Type From Date",
+                    "node_id": "b3dd2951-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "b3dd2923-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Place Address",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "b3dd2969-0de1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Place Address",
+                    "node_id": "b3dd2921-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "b3dd2923-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Address Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "b3dd2970-0de1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Address Type",
+                    "node_id": "b3dd2943-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "b3dd28e4-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Place Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "b3dd2968-0de1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Place Description",
+                    "node_id": "b3dd2961-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "b3dd2914-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Cadastral Reference",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "b3dd296d-0de1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Cadastral Reference",
+                    "node_id": "b3dd2912-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "b3dd28f0-0de1-11e8-ae2d-02b2d3297e3a",
@@ -1009,6 +866,21 @@
                     "card_id": "b3dd28f6-0de1-11e8-ae2d-02b2d3297e3a",
                     "config": {
                         "defaultValue": "",
+                        "label": "Material",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "5609982f-0de2-11e8-ae2d-02b2d3297e3a",
+                    "label": "Material",
+                    "node_id": "b3dd293b-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "b3dd28f6-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
                         "label": "Construction Technique",
                         "options": [],
                         "placeholder": "Select an option"
@@ -1031,21 +903,6 @@
                     "id": "5609982e-0de2-11e8-ae2d-02b2d3297e3a",
                     "label": "Component Type",
                     "node_id": "b3dd293d-0de1-11e8-ae2d-02b2d3297e3a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "b3dd28fc-0de1-11e8-ae2d-02b2d3297e3a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Setting Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "b3dd296f-0de1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Setting Type",
-                    "node_id": "b3dd28fa-0de1-11e8-ae2d-02b2d3297e3a",
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
@@ -1161,6 +1018,149 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "b3dd28fc-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Setting Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "b3dd296f-0de1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Setting Type",
+                    "node_id": "b3dd28fa-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "b3dd2917-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Name",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "b3dd296a-0de1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Name",
+                    "node_id": "b3dd2915-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "b3dd2917-0de1-11e8-ae2d-02b2d3297e3a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Name Type",
+                        "options": [
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "866e8d3b-e00a-4559-bf23-dc1812c27e1f",
+                                "id": "81dd62d2-6701-4195-b74b-8057456bba4b",
+                                "sortorder": "1",
+                                "text": "Primary"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "86708338-1305-459e-9cff-7ee0db2a40e4",
+                                "id": "ecb20ae9-a457-4011-83bf-1c936e2d6b6a",
+                                "sortorder": "2",
+                                "text": "Alternative"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "b193cf22-36fc-4024-ae66-fb1a387c6db0",
+                                "id": "7ad76f8c-ffae-4773-b415-899fbf2a6ffd",
+                                "sortorder": "3",
+                                "text": "Historic"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "884b086e-50a0-4524-a927-4897f0c7452b",
+                                        "id": "11e60ad2-7dca-47ef-81ff-24561bc45cd6",
+                                        "sortorder": "",
+                                        "text": "California Historic Landmark"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "de9d5536-4860-4821-9419-4f66b0897c8f",
+                                        "id": "0ad1919d-48ed-4957-9c51-6e3ec439323d",
+                                        "sortorder": "",
+                                        "text": "California Point of Historical Interest"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "cd4c796f-73f8-4cba-8cdc-8cc069c7bcfb",
+                                        "id": "3d2ef9d9-e2f1-4286-8922-1b153504e6f5",
+                                        "sortorder": "",
+                                        "text": "California Register of Historic Resources"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "3a6db05d-6897-4021-a087-0d4989faaa06",
+                                        "id": "726d46f0-5780-422d-8116-fd25e5dd5aee",
+                                        "sortorder": "",
+                                        "text": "Los Angeles Historic Cultural Monument"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "a7bc4fa3-73d2-498b-a604-ecbc0e18bf55",
+                                        "id": "26f8294c-98ff-452c-ac3f-a78eb430df93",
+                                        "sortorder": "",
+                                        "text": "Los Angeles Historic Preservation Overlay Zone"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "6821ec06-03a5-4773-8190-496d41564e70",
+                                        "id": "14dfac42-ed63-4a51-aa99-d846a0e2f9cf",
+                                        "sortorder": "",
+                                        "text": "National Historic Landmark"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "f1cece23-e8bc-4a54-93b8-2c609d915287",
+                                        "id": "53af5a29-e5e5-4893-b5a3-432b19c10440",
+                                        "sortorder": "",
+                                        "text": "National Monument"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "b800a93f-1429-4fee-a3b6-e1fa55e12c9b",
+                                        "id": "f7aecc0c-9022-440f-a934-7c9456281fd1",
+                                        "sortorder": "",
+                                        "text": "National Register of Historic Places"
+                                    }
+                                ],
+                                "collector": "collector",
+                                "conceptid": "163cd597-6848-4109-a7b0-56ca98003f85",
+                                "sortorder": "4",
+                                "text": "Designation Names"
+                            }
+                        ],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "b3dd2971-0de1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Name Type",
+                    "node_id": "b3dd2948-0de1-11e8-ae2d-02b2d3297e3a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 }
             ],
             "color": "rgba(221,97,14,0.7)",
@@ -1202,6 +1202,15 @@
             "deploymentfile": null,
             "description": "This resource model describes archaeological resources.",
             "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "b3dd2918-0de1-11e8-ae2d-02b2d3297e3a",
+                    "edgeid": "b3dd29a2-0de1-11e8-ae2d-02b2d3297e3a",
+                    "graph_id": "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P35_has_identified",
+                    "rangenode_id": "b3dd292f-0de1-11e8-ae2d-02b2d3297e3a"
+                },
                 {
                     "description": null,
                     "domainnode_id": "b3dd2903-0de1-11e8-ae2d-02b2d3297e3a",
@@ -1444,15 +1453,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by",
                     "rangenode_id": "b3dd2903-0de1-11e8-ae2d-02b2d3297e3a"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "b3dd2918-0de1-11e8-ae2d-02b2d3297e3a",
-                    "edgeid": "b3dd29a2-0de1-11e8-ae2d-02b2d3297e3a",
-                    "graph_id": "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P35_has_identified",
-                    "rangenode_id": "b3dd292f-0de1-11e8-ae2d-02b2d3297e3a"
                 },
                 {
                     "description": null,
@@ -1978,7 +1978,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
-                    "id": "5313c347-e0ca-11ea-9015-025bb3594503"
+                    "id": "dfc0c0f6-0e45-11eb-92bf-025bb3594503"
                 }
             ],
             "graphid": "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
@@ -3256,26 +3256,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": {
-                        "fillColor": "rgba(221,97,14,0.7)"
-                    },
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": true,
-                    "name": "Archaeological Resources",
-                    "nodegroup_id": null,
-                    "nodeid": "b3dd2952-0de1-11e8-ae2d-02b2d3297e3a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
-                    "parentproperty": "",
-                    "sortorder": 0
-                },
-                {
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
@@ -3733,6 +3713,26 @@
                 },
                 {
                     "config": {
+                        "fillColor": "rgba(221,97,14,0.7)"
+                    },
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Archaeological Resources",
+                    "nodegroup_id": null,
+                    "nodeid": "b3dd2952-0de1-11e8-ae2d-02b2d3297e3a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
                         "addToMap": true,
                         "advancedStyle": "",
                         "advancedStyling": false,
@@ -3774,7 +3774,16 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
+                "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
+                "5f1b17b2-e506-11e7-b2cc-02e0c6d7ad7a",
+                "23a06a1c-9fdc-11e7-b2cc-02e0c6d7ad7a",
+                "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
+                "cd37476e-e503-11e7-b2cc-02e0c6d7ad7a",
+                "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "config": {

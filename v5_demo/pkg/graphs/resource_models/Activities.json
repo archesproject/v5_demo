@@ -5,25 +5,6 @@
             "cards": [
                 {
                     "active": true,
-                    "cardid": "699410c4-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": "Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system.",
-                    "graph_id": "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Enter information for identifiers of the resource from other external sources.",
-                    "is_editable": false,
-                    "name": "External Identifier",
-                    "nodegroup_id": "699410c2-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": null,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "699410b2-e503-11e7-b2cc-02e0c6d7ad7a",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -39,6 +20,25 @@
                     "name": "Description Location",
                     "nodegroup_id": "699410b0-e503-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 3,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "699410c4-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system.",
+                    "graph_id": "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": "Enter information for identifiers of the resource from other external sources.",
+                    "is_editable": false,
+                    "name": "External Identifier",
+                    "nodegroup_id": "699410c2-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": null,
                     "visible": true
                 },
                 {
@@ -234,35 +234,63 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "699410d0-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "699410c4-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD",
                         "defaultValue": "",
-                        "label": "To Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
+                        "label": "External Identifier Type",
+                        "options": [],
+                        "placeholder": "Select an option"
                     },
-                    "id": "699410e0-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "label": "To Date",
-                    "node_id": "699410dc-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "id": "8ad7fbfb-42a2-11e8-ae2d-02b2d3297e3a",
+                    "label": "External Identifier Type",
+                    "node_id": "699410d1-e503-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 1,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "699410b8-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "699410c4-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Name",
+                        "label": "External Identifier Source",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "8ad7fbfc-42a2-11e8-ae2d-02b2d3297e3a",
+                    "label": "External Identifier Source",
+                    "node_id": "699410d2-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "699410c4-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "External Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
-                    "id": "0942eaf4-e731-11e7-b2cc-02e0c6d7ad7a",
-                    "label": "Name",
-                    "node_id": "699410b6-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "id": "8ad7fbfa-42a2-11e8-ae2d-02b2d3297e3a",
+                    "label": "External Identifier",
+                    "node_id": "699410c2-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "699410b2-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Place Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "2ca6aa8c-e731-11e7-b2cc-02e0c6d7ad7a",
+                    "label": "Place Description",
+                    "node_id": "699410d5-e503-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
@@ -313,35 +341,132 @@
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
-                    "card_id": "699410c4-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "699410b5-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "External Identifier Type",
-                        "options": [],
+                        "label": "Geometry Qualifier",
+                        "options": [
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "9b02c210-2e8a-45de-8c76-fb23f9230325",
+                                "id": "a54d76df-ab3a-4213-babc-2c23f7884944",
+                                "sortorder": "",
+                                "text": "access point"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "4d57dacb-67cf-446e-9a73-2b3d7fab210d",
+                                "id": "462e6f69-0336-46d2-b93f-422021f246c2",
+                                "sortorder": "",
+                                "text": "buffer polygon"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "3357f459-c2c7-40fa-97f3-e863e46fc53c",
+                                "id": "13f40c49-fc82-4d5b-8ba3-b31d97aaf1c8",
+                                "sortorder": "",
+                                "text": "center line"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "5174db53-996f-4cd0-8088-1f1856bb3388",
+                                "id": "be9ad0de-efbb-40a3-95e0-17a58183685d",
+                                "sortorder": "",
+                                "text": "center point"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "239dee49-22e3-4402-be51-ea8630078db5",
+                                "id": "43eebfc6-5f8d-4302-a5f0-2ac20c6f878b",
+                                "sortorder": "",
+                                "text": "circumscribed polygon"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "a6abdc53-8ca3-47ca-add7-66b0060710d5",
+                                "id": "cb8a2933-289e-453b-8f51-e9e10f60c36e",
+                                "sortorder": "",
+                                "text": "facade point"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "35ef95b0-cccf-41ed-bca5-a06f25a5c67b",
+                                "id": "f1b5d6cc-34c4-4ca0-8b00-53b4fc761f9b",
+                                "sortorder": "",
+                                "text": "footprint polygon"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "6d2a90ae-9c2e-43b4-92a6-e90c2e796fb8",
+                                "id": "536b57df-3f2f-4ac2-b50f-cc56c718e2d0",
+                                "sortorder": "",
+                                "text": "perimeter polygon"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "57297aa1-476c-47d2-9e29-a5b8ce3032c9",
+                                "id": "559b9a05-b546-474a-9f79-7478a6a14f30",
+                                "sortorder": "",
+                                "text": "property line"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "93a9f882-e017-412f-9eb5-1d548588fcd9",
+                                "id": "724ac5ab-7f25-4b6d-b24f-a3d5297ecbb6",
+                                "sortorder": "",
+                                "text": "site datum point"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "604ada73-c454-44f8-bbe2-ee93570ebb4e",
+                                "id": "129f3575-02f4-4bbb-af5c-eb97694f02be",
+                                "sortorder": "",
+                                "text": "site extent polygon"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "131090b5-2d4c-4a87-9be3-d05288cd73b6",
+                                "id": "68a48482-0c86-4c31-a6a3-9224dfea2968",
+                                "sortorder": "",
+                                "text": "tomb access outline"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "e2c79849-873a-43f6-bb3f-3ae58d9adda4",
+                                "id": "259095ef-d35e-46b5-b68e-08cb6d14804c",
+                                "sortorder": "",
+                                "text": "tomb plan outline"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "30b3fab3-ada9-4f4d-913d-386433556b20",
+                                "id": "455471fe-c24e-49ca-aee0-c31b6055cff6",
+                                "sortorder": "",
+                                "text": "vicinity point"
+                            }
+                        ],
                         "placeholder": "Select an option"
                     },
-                    "id": "8ad7fbfb-42a2-11e8-ae2d-02b2d3297e3a",
-                    "label": "External Identifier Type",
-                    "node_id": "699410d1-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "699410b2-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Place Description",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "2ca6aa8c-e731-11e7-b2cc-02e0c6d7ad7a",
-                    "label": "Place Description",
-                    "node_id": "699410d5-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "id": "2ca6aa90-e731-11e7-b2cc-02e0c6d7ad7a",
+                    "label": "Geometry Qualifier",
+                    "node_id": "699410db-e503-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 0,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "699410be-e503-11e7-b2cc-02e0c6d7ad7a",
@@ -392,188 +517,38 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "699410c4-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "699410be-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "External Identifier Source",
-                        "options": [],
-                        "placeholder": "Select an option"
+                        "label": "Administrative Subdivision Name",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
                     },
-                    "id": "8ad7fbfc-42a2-11e8-ae2d-02b2d3297e3a",
-                    "label": "External Identifier Source",
-                    "node_id": "699410d2-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "699410b8-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Name Type",
-                        "options": [
-                            {
-                                "children": [
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "90648432-ed4e-4690-9eae-6d17d0b51814",
-                                        "id": "b5781f2e-e480-40d6-8eb5-eee9258fb138",
-                                        "sortorder": "",
-                                        "text": "Ancient Egyptian"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "4bab84e4-06e8-44ab-a69b-f4d57394b0b2",
-                                        "id": "2a5e88db-f447-4d0c-a3d1-3570737008e1",
-                                        "sortorder": "",
-                                        "text": "Arabic"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "94c2940b-b5e3-4c45-916b-08945740e127",
-                                        "id": "054054f8-54a5-4c44-8024-be56b40bcf5f",
-                                        "sortorder": "",
-                                        "text": "Arabic (Transliteration)"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "70994e40-3e5a-4ecc-9bbe-75e18b81bf0e",
-                                        "id": "cd436e64-9a04-47e8-bfa8-6c82dcdf8210",
-                                        "sortorder": "",
-                                        "text": "French"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "4da99889-db7f-471a-b3eb-1c915699b246",
-                                        "id": "a342edc5-6cc3-4863-8e1e-8a9876a4184a",
-                                        "sortorder": "",
-                                        "text": "Italian"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "0f59daa2-377f-490c-91a6-858d2e9733b5",
-                                        "id": "6daea895-082b-4331-ae4f-8ad83d2e10ef",
-                                        "sortorder": "",
-                                        "text": "Spanish"
-                                    }
-                                ],
-                                "collector": "",
-                                "conceptid": "1a9f9f0f-1926-429f-9f27-20ed241e8024",
-                                "id": "40ecbd5e-f827-4e84-a043-98dbaad5ec60",
-                                "sortorder": "",
-                                "text": "Names - Other Languages"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "866e8d3b-e00a-4559-bf23-dc1812c27e1f",
-                                "id": "81dd62d2-6701-4195-b74b-8057456bba4b",
-                                "sortorder": "1",
-                                "text": "Primary"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "86708338-1305-459e-9cff-7ee0db2a40e4",
-                                "id": "ecb20ae9-a457-4011-83bf-1c936e2d6b6a",
-                                "sortorder": "2",
-                                "text": "Alternative"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "b193cf22-36fc-4024-ae66-fb1a387c6db0",
-                                "id": "7ad76f8c-ffae-4773-b415-899fbf2a6ffd",
-                                "sortorder": "3",
-                                "text": "Historic"
-                            },
-                            {
-                                "children": [
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "884b086e-50a0-4524-a927-4897f0c7452b",
-                                        "id": "11e60ad2-7dca-47ef-81ff-24561bc45cd6",
-                                        "sortorder": "",
-                                        "text": "California Historic Landmark"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "de9d5536-4860-4821-9419-4f66b0897c8f",
-                                        "id": "0ad1919d-48ed-4957-9c51-6e3ec439323d",
-                                        "sortorder": "",
-                                        "text": "California Point of Historical Interest"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "cd4c796f-73f8-4cba-8cdc-8cc069c7bcfb",
-                                        "id": "3d2ef9d9-e2f1-4286-8922-1b153504e6f5",
-                                        "sortorder": "",
-                                        "text": "California Register of Historic Resources"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "3a6db05d-6897-4021-a087-0d4989faaa06",
-                                        "id": "726d46f0-5780-422d-8116-fd25e5dd5aee",
-                                        "sortorder": "",
-                                        "text": "Los Angeles Historic Cultural Monument"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "a7bc4fa3-73d2-498b-a604-ecbc0e18bf55",
-                                        "id": "26f8294c-98ff-452c-ac3f-a78eb430df93",
-                                        "sortorder": "",
-                                        "text": "Los Angeles Historic Preservation Overlay Zone"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "6821ec06-03a5-4773-8190-496d41564e70",
-                                        "id": "14dfac42-ed63-4a51-aa99-d846a0e2f9cf",
-                                        "sortorder": "",
-                                        "text": "National Historic Landmark"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "f1cece23-e8bc-4a54-93b8-2c609d915287",
-                                        "id": "53af5a29-e5e5-4893-b5a3-432b19c10440",
-                                        "sortorder": "",
-                                        "text": "National Monument"
-                                    },
-                                    {
-                                        "children": [],
-                                        "collector": "",
-                                        "conceptid": "b800a93f-1429-4fee-a3b6-e1fa55e12c9b",
-                                        "id": "f7aecc0c-9022-440f-a934-7c9456281fd1",
-                                        "sortorder": "",
-                                        "text": "National Register of Historic Places"
-                                    }
-                                ],
-                                "collector": "collector",
-                                "conceptid": "163cd597-6848-4109-a7b0-56ca98003f85",
-                                "sortorder": "4",
-                                "text": "Designation Names"
-                            }
-                        ],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "0942eaf5-e731-11e7-b2cc-02e0c6d7ad7a",
-                    "label": "Name Type",
-                    "node_id": "699410d8-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "id": "2ca6aa8b-e731-11e7-b2cc-02e0c6d7ad7a",
+                    "label": "Administrative Subdivision Name",
+                    "node_id": "699410d9-e503-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 1,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "699410d0-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "To Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "699410e0-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "label": "To Date",
+                    "node_id": "699410dc-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
                     "card_id": "699410d0-e503-11e7-b2cc-02e0c6d7ad7a",
@@ -811,6 +786,55 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
+                    "card_id": "699410d0-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "From Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "699410e1-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "label": "From Date",
+                    "node_id": "699410d4-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "699410c1-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "a297aae3-42a2-11e8-ae2d-02b2d3297e3a",
+                    "label": "Description",
+                    "node_id": "699410dd-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "699410c1-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Description Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "a297aae2-42a2-11e8-ae2d-02b2d3297e3a",
+                    "label": "Description Type",
+                    "node_id": "699410de-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
                     "card_id": "699410af-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
@@ -843,103 +867,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "699410c1-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Description",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "a297aae3-42a2-11e8-ae2d-02b2d3297e3a",
-                    "label": "Description",
-                    "node_id": "699410dd-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "699410bb-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Cadastral Reference",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "2ca6aa8d-e731-11e7-b2cc-02e0c6d7ad7a",
-                    "label": "Cadastral Reference",
-                    "node_id": "699410b9-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "699410c4-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "External Identifier",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "8ad7fbfa-42a2-11e8-ae2d-02b2d3297e3a",
-                    "label": "External Identifier",
-                    "node_id": "699410c2-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "699410c1-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Description Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "a297aae2-42a2-11e8-ae2d-02b2d3297e3a",
-                    "label": "Description Type",
-                    "node_id": "699410de-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "699410be-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Administrative Subdivision Name",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "2ca6aa8b-e731-11e7-b2cc-02e0c6d7ad7a",
-                    "label": "Administrative Subdivision Name",
-                    "node_id": "699410d9-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "699410d0-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "From Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "699410e1-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "label": "From Date",
-                    "node_id": "699410d4-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
                     "card_id": "699410af-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
@@ -956,132 +883,205 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "699410b5-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "699410b8-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Geometry Qualifier",
+                        "label": "Name",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "0942eaf4-e731-11e7-b2cc-02e0c6d7ad7a",
+                    "label": "Name",
+                    "node_id": "699410b6-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "699410b8-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Name Type",
                         "options": [
                             {
-                                "children": [],
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "90648432-ed4e-4690-9eae-6d17d0b51814",
+                                        "id": "b5781f2e-e480-40d6-8eb5-eee9258fb138",
+                                        "sortorder": "",
+                                        "text": "Ancient Egyptian"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "4bab84e4-06e8-44ab-a69b-f4d57394b0b2",
+                                        "id": "2a5e88db-f447-4d0c-a3d1-3570737008e1",
+                                        "sortorder": "",
+                                        "text": "Arabic"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "94c2940b-b5e3-4c45-916b-08945740e127",
+                                        "id": "054054f8-54a5-4c44-8024-be56b40bcf5f",
+                                        "sortorder": "",
+                                        "text": "Arabic (Transliteration)"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "70994e40-3e5a-4ecc-9bbe-75e18b81bf0e",
+                                        "id": "cd436e64-9a04-47e8-bfa8-6c82dcdf8210",
+                                        "sortorder": "",
+                                        "text": "French"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "4da99889-db7f-471a-b3eb-1c915699b246",
+                                        "id": "a342edc5-6cc3-4863-8e1e-8a9876a4184a",
+                                        "sortorder": "",
+                                        "text": "Italian"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "0f59daa2-377f-490c-91a6-858d2e9733b5",
+                                        "id": "6daea895-082b-4331-ae4f-8ad83d2e10ef",
+                                        "sortorder": "",
+                                        "text": "Spanish"
+                                    }
+                                ],
                                 "collector": "",
-                                "conceptid": "9b02c210-2e8a-45de-8c76-fb23f9230325",
-                                "id": "a54d76df-ab3a-4213-babc-2c23f7884944",
+                                "conceptid": "1a9f9f0f-1926-429f-9f27-20ed241e8024",
+                                "id": "40ecbd5e-f827-4e84-a043-98dbaad5ec60",
                                 "sortorder": "",
-                                "text": "access point"
+                                "text": "Names - Other Languages"
                             },
                             {
                                 "children": [],
                                 "collector": "",
-                                "conceptid": "4d57dacb-67cf-446e-9a73-2b3d7fab210d",
-                                "id": "462e6f69-0336-46d2-b93f-422021f246c2",
-                                "sortorder": "",
-                                "text": "buffer polygon"
+                                "conceptid": "866e8d3b-e00a-4559-bf23-dc1812c27e1f",
+                                "id": "81dd62d2-6701-4195-b74b-8057456bba4b",
+                                "sortorder": "1",
+                                "text": "Primary"
                             },
                             {
                                 "children": [],
                                 "collector": "",
-                                "conceptid": "3357f459-c2c7-40fa-97f3-e863e46fc53c",
-                                "id": "13f40c49-fc82-4d5b-8ba3-b31d97aaf1c8",
-                                "sortorder": "",
-                                "text": "center line"
+                                "conceptid": "86708338-1305-459e-9cff-7ee0db2a40e4",
+                                "id": "ecb20ae9-a457-4011-83bf-1c936e2d6b6a",
+                                "sortorder": "2",
+                                "text": "Alternative"
                             },
                             {
                                 "children": [],
                                 "collector": "",
-                                "conceptid": "5174db53-996f-4cd0-8088-1f1856bb3388",
-                                "id": "be9ad0de-efbb-40a3-95e0-17a58183685d",
-                                "sortorder": "",
-                                "text": "center point"
+                                "conceptid": "b193cf22-36fc-4024-ae66-fb1a387c6db0",
+                                "id": "7ad76f8c-ffae-4773-b415-899fbf2a6ffd",
+                                "sortorder": "3",
+                                "text": "Historic"
                             },
                             {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "239dee49-22e3-4402-be51-ea8630078db5",
-                                "id": "43eebfc6-5f8d-4302-a5f0-2ac20c6f878b",
-                                "sortorder": "",
-                                "text": "circumscribed polygon"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "a6abdc53-8ca3-47ca-add7-66b0060710d5",
-                                "id": "cb8a2933-289e-453b-8f51-e9e10f60c36e",
-                                "sortorder": "",
-                                "text": "facade point"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "35ef95b0-cccf-41ed-bca5-a06f25a5c67b",
-                                "id": "f1b5d6cc-34c4-4ca0-8b00-53b4fc761f9b",
-                                "sortorder": "",
-                                "text": "footprint polygon"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "6d2a90ae-9c2e-43b4-92a6-e90c2e796fb8",
-                                "id": "536b57df-3f2f-4ac2-b50f-cc56c718e2d0",
-                                "sortorder": "",
-                                "text": "perimeter polygon"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "57297aa1-476c-47d2-9e29-a5b8ce3032c9",
-                                "id": "559b9a05-b546-474a-9f79-7478a6a14f30",
-                                "sortorder": "",
-                                "text": "property line"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "93a9f882-e017-412f-9eb5-1d548588fcd9",
-                                "id": "724ac5ab-7f25-4b6d-b24f-a3d5297ecbb6",
-                                "sortorder": "",
-                                "text": "site datum point"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "604ada73-c454-44f8-bbe2-ee93570ebb4e",
-                                "id": "129f3575-02f4-4bbb-af5c-eb97694f02be",
-                                "sortorder": "",
-                                "text": "site extent polygon"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "131090b5-2d4c-4a87-9be3-d05288cd73b6",
-                                "id": "68a48482-0c86-4c31-a6a3-9224dfea2968",
-                                "sortorder": "",
-                                "text": "tomb access outline"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "e2c79849-873a-43f6-bb3f-3ae58d9adda4",
-                                "id": "259095ef-d35e-46b5-b68e-08cb6d14804c",
-                                "sortorder": "",
-                                "text": "tomb plan outline"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "30b3fab3-ada9-4f4d-913d-386433556b20",
-                                "id": "455471fe-c24e-49ca-aee0-c31b6055cff6",
-                                "sortorder": "",
-                                "text": "vicinity point"
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "884b086e-50a0-4524-a927-4897f0c7452b",
+                                        "id": "11e60ad2-7dca-47ef-81ff-24561bc45cd6",
+                                        "sortorder": "",
+                                        "text": "California Historic Landmark"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "de9d5536-4860-4821-9419-4f66b0897c8f",
+                                        "id": "0ad1919d-48ed-4957-9c51-6e3ec439323d",
+                                        "sortorder": "",
+                                        "text": "California Point of Historical Interest"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "cd4c796f-73f8-4cba-8cdc-8cc069c7bcfb",
+                                        "id": "3d2ef9d9-e2f1-4286-8922-1b153504e6f5",
+                                        "sortorder": "",
+                                        "text": "California Register of Historic Resources"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "3a6db05d-6897-4021-a087-0d4989faaa06",
+                                        "id": "726d46f0-5780-422d-8116-fd25e5dd5aee",
+                                        "sortorder": "",
+                                        "text": "Los Angeles Historic Cultural Monument"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "a7bc4fa3-73d2-498b-a604-ecbc0e18bf55",
+                                        "id": "26f8294c-98ff-452c-ac3f-a78eb430df93",
+                                        "sortorder": "",
+                                        "text": "Los Angeles Historic Preservation Overlay Zone"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "6821ec06-03a5-4773-8190-496d41564e70",
+                                        "id": "14dfac42-ed63-4a51-aa99-d846a0e2f9cf",
+                                        "sortorder": "",
+                                        "text": "National Historic Landmark"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "f1cece23-e8bc-4a54-93b8-2c609d915287",
+                                        "id": "53af5a29-e5e5-4893-b5a3-432b19c10440",
+                                        "sortorder": "",
+                                        "text": "National Monument"
+                                    },
+                                    {
+                                        "children": [],
+                                        "collector": "",
+                                        "conceptid": "b800a93f-1429-4fee-a3b6-e1fa55e12c9b",
+                                        "id": "f7aecc0c-9022-440f-a934-7c9456281fd1",
+                                        "sortorder": "",
+                                        "text": "National Register of Historic Places"
+                                    }
+                                ],
+                                "collector": "collector",
+                                "conceptid": "163cd597-6848-4109-a7b0-56ca98003f85",
+                                "sortorder": "4",
+                                "text": "Designation Names"
                             }
                         ],
                         "placeholder": "Select an option"
                     },
-                    "id": "2ca6aa90-e731-11e7-b2cc-02e0c6d7ad7a",
-                    "label": "Geometry Qualifier",
-                    "node_id": "699410db-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 0,
+                    "id": "0942eaf5-e731-11e7-b2cc-02e0c6d7ad7a",
+                    "label": "Name Type",
+                    "node_id": "699410d8-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "699410bb-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Cadastral Reference",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "2ca6aa8d-e731-11e7-b2cc-02e0c6d7ad7a",
+                    "label": "Cadastral Reference",
+                    "node_id": "699410b9-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": "rgba(212,171,33,0.8)",
@@ -1344,7 +1344,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "id": "56eaeb2a-e0ca-11ea-9015-025bb3594503"
+                    "id": "e2dd9972-0e45-11eb-92bf-025bb3594503"
                 }
             ],
             "graphid": "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
@@ -1842,26 +1842,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": {
-                        "fillColor": "rgba(212,171,33,0.8)"
-                    },
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": true,
-                    "name": "Activities",
-                    "nodegroup_id": null,
-                    "nodeid": "699410d3-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
-                    "parentproperty": "",
-                    "sortorder": 0
-                },
-                {
                     "config": null,
                     "datatype": "string",
                     "description": "Represents a single node in a graph",
@@ -1957,10 +1937,39 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
                     "sortorder": 0
+                },
+                {
+                    "config": {
+                        "fillColor": "rgba(212,171,33,0.8)"
+                    },
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Activities",
+                    "nodegroup_id": null,
+                    "nodeid": "699410d3-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "",
+                    "sortorder": 0
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
+                "5f1b17b2-e506-11e7-b2cc-02e0c6d7ad7a",
+                "23a06a1c-9fdc-11e7-b2cc-02e0c6d7ad7a",
+                "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
+                "cd37476e-e503-11e7-b2cc-02e0c6d7ad7a",
+                "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
+                "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "config": {

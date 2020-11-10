@@ -187,7 +187,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Select keywords associated with the resource.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Keyword",
                     "nodegroup_id": "cd37477e-e503-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": null,
@@ -234,64 +234,17 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "cd374789-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "cd374774-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Administrative Subdivision Name",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "09aab4ed-eff6-11e7-ae2d-02b2d3297e3a",
-                    "label": "Administrative Subdivision Name",
-                    "node_id": "cd3747a7-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "cd374789-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Administrative Subdivision Type",
+                        "label": "Name Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
-                    "id": "09aab4ee-eff6-11e7-ae2d-02b2d3297e3a",
-                    "label": "Administrative Subdivision Type",
-                    "node_id": "cd3747aa-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "cd37478c-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Place Address",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "09aab4ef-eff6-11e7-ae2d-02b2d3297e3a",
-                    "label": "Place Address",
-                    "node_id": "cd37478a-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "id": "1317594a-42a1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Name Type",
+                    "node_id": "cd37479c-e503-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "cd37478c-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Address Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "09aab4f0-eff6-11e7-ae2d-02b2d3297e3a",
-                    "label": "Address Type",
-                    "node_id": "cd3747a8-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -358,6 +311,101 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "cd374789-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Administrative Subdivision Name",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "09aab4ed-eff6-11e7-ae2d-02b2d3297e3a",
+                    "label": "Administrative Subdivision Name",
+                    "node_id": "cd3747a7-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "cd374789-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Administrative Subdivision Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "09aab4ee-eff6-11e7-ae2d-02b2d3297e3a",
+                    "label": "Administrative Subdivision Type",
+                    "node_id": "cd3747aa-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "cd37478c-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Place Address",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "09aab4ef-eff6-11e7-ae2d-02b2d3297e3a",
+                    "label": "Place Address",
+                    "node_id": "cd37478a-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "cd37478c-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Address Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "09aab4f0-eff6-11e7-ae2d-02b2d3297e3a",
+                    "label": "Address Type",
+                    "node_id": "cd3747a8-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "cd374771-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Person/Organization Type To Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "24a297e3-42a1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Person/Organization Type To Date",
+                    "node_id": "cd37479a-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "cd374771-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Cultural Period",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "24a297e4-42a1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Cultural Period",
+                    "node_id": "cd3747a2-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
                     "card_id": "cd37478f-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
@@ -406,103 +454,20 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "cd374771-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Person/Organization Type To Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "24a297e3-42a1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Person/Organization Type To Date",
-                    "node_id": "cd37479a-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "cd374771-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Cultural Period",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "24a297e4-42a1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Cultural Period",
-                    "node_id": "cd3747a2-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
                     "card_id": "cd374774-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Name Type",
-                        "options": [],
-                        "placeholder": "Select an option"
+                        "label": "Name",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
                     },
-                    "id": "1317594a-42a1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Name Type",
-                    "node_id": "cd37479c-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "cd37478f-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "End Date of Existence",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "06aa4ab5-42a1-11e8-ae2d-02b2d3297e3a",
-                    "label": "End Date of Existence",
-                    "node_id": "cd374799-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "cd374771-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Person/Organization Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "24a297e5-42a1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Person/Organization Type",
-                    "node_id": "cd3747a0-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "cd374771-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Person/Organization Type From Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "24a297e2-42a1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Person/Organization Type From Date",
-                    "node_id": "cd374798-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "id": "1317594b-42a1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Name",
+                    "node_id": "cd374772-e503-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 1,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "cd374783-e503-11e7-b2cc-02e0c6d7ad7a",
@@ -518,6 +483,51 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "cd374783-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": 0,
+                        "centerX": -0.5593011590810022,
+                        "centerY": 4.21495724756123,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Spatial Coordinates Geometry",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 0
+                    },
+                    "id": "09aab4ea-eff6-11e7-ae2d-02b2d3297e3a",
+                    "label": "Spatial Coordinates Geometry",
+                    "node_id": "cd374781-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
                     "card_id": "cd374786-e503-11e7-b2cc-02e0c6d7ad7a",
@@ -567,65 +577,55 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "cd374774-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "card_id": "cd374771-e503-11e7-b2cc-02e0c6d7ad7a",
                     "config": {
                         "defaultValue": "",
-                        "label": "Name",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
+                        "label": "Person/Organization Type",
+                        "options": [],
+                        "placeholder": "Select an option"
                     },
-                    "id": "1317594b-42a1-11e8-ae2d-02b2d3297e3a",
-                    "label": "Name",
-                    "node_id": "cd374772-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "cd374783-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "config": {
-                        "basemap": "streets",
-                        "bearing": 0,
-                        "centerX": -0.5593011590810022,
-                        "centerY": 4.21495724756123,
-                        "defaultValue": "",
-                        "defaultValueType": "",
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "Spatial Coordinates Geometry",
-                        "maxZoom": 20,
-                        "minZoom": 0,
-                        "overlayConfigs": [],
-                        "overlayOpacity": 0,
-                        "pitch": 0,
-                        "rerender": true,
-                        "zoom": 0
-                    },
-                    "id": "09aab4ea-eff6-11e7-ae2d-02b2d3297e3a",
-                    "label": "Spatial Coordinates Geometry",
-                    "node_id": "cd374781-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "id": "24a297e5-42a1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Person/Organization Type",
+                    "node_id": "cd3747a0-e503-11e7-b2cc-02e0c6d7ad7a",
                     "sortorder": 0,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "cd374771-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Person/Organization Type From Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "24a297e2-42a1-11e8-ae2d-02b2d3297e3a",
+                    "label": "Person/Organization Type From Date",
+                    "node_id": "cd374798-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "cd37478f-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "End Date of Existence",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "06aa4ab5-42a1-11e8-ae2d-02b2d3297e3a",
+                    "label": "End Date of Existence",
+                    "node_id": "cd374799-e503-11e7-b2cc-02e0c6d7ad7a",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
                 }
             ],
             "color": null,
@@ -969,7 +969,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "cd37476e-e503-11e7-b2cc-02e0c6d7ad7a",
-                    "id": "593dc781-e0ca-11ea-9015-025bb3594503"
+                    "id": "e504b0fa-0e45-11eb-92bf-025bb3594503"
                 }
             ],
             "graphid": "cd37476e-e503-11e7-b2cc-02e0c6d7ad7a",
@@ -1159,7 +1159,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
-                    "name": "Actor",
+                    "name": "People and Organizations",
                     "nodegroup_id": null,
                     "nodeid": "cd374796-e503-11e7-b2cc-02e0c6d7ad7a",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
@@ -1753,7 +1753,16 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "cd37476e-e503-11e7-b2cc-02e0c6d7ad7a",
+                "5f1b17b2-e506-11e7-b2cc-02e0c6d7ad7a",
+                "23a06a1c-9fdc-11e7-b2cc-02e0c6d7ad7a",
+                "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                "6b371a4c-e505-11e7-b2cc-02e0c6d7ad7a",
+                "cd37476e-e503-11e7-b2cc-02e0c6d7ad7a",
+                "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
+                "699410ac-e503-11e7-b2cc-02e0c6d7ad7a"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "config": {
@@ -1768,7 +1777,7 @@
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
-                "name": "Actor",
+                "name": "People and Organizations",
                 "nodegroup_id": null,
                 "nodeid": "cd374796-e503-11e7-b2cc-02e0c6d7ad7a",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
