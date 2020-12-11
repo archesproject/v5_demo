@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept rdf:about="http://localhost:8000/f63b3c52-cd86-48e2-9648-a7343bf48f8c">
+    <skos:prefLabel xml:lang="en">{"id": "a29d2bec-1afe-4cee-9843-aa23e8b5433a", "value": "REIGN OF AY"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/3640736d-0e53-46ad-a030-20aca16cd72e"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "15616763-c0d0-454a-a8f6-b8eb950797a4", "value": "http://www.archesproject.org/666c7f1e-f49a-46bc-8f59-09ac43bc4859"}</dcterms:identifier>
+        <dcterms:title xml:lang="en">{"id": "52b296f5-8791-49f1-bce6-7def891dcf2b", "value": "Additional Schemes"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <dcterms:identifier xml:lang="en-us">{"id": "6a94eac2-9dae-4149-a307-b8a37995aa9e", "value": "http://www.archesproject.org/f63b3c52-cd86-48e2-9648-a7343bf48f8c"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ec126937-0485-4888-94f1-57bfc4a60b52">
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "8abab621-0983-4761-938c-8e722147f6bd", "value": "http://www.archesproject.org/ec126937-0485-4888-94f1-57bfc4a60b52"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "4cea5b55-c351-495a-be6b-b9ecd214180d", "value": "REIGN OF RAMESES III"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c58dab86-454e-4723-be8f-505cb2d252b4">
+    <skos:prefLabel xml:lang="en">{"id": "5f9e473a-484e-4f96-a84f-c7dd0abf8f85", "value": "THIRD INTERMEDIATE"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/932ce80e-9526-4ab5-97fc-1f98a11f633f">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "8ac04485-352e-4dec-8eae-dc32aab21158", "value": "http://www.archesproject.org/932ce80e-9526-4ab5-97fc-1f98a11f633f"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "f45e51a1-ddc9-4215-93d2-86e2faf6144d", "value": "23RD DYNASTY"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/58eaa6ef-1eeb-4b08-a363-39ee85638253">
+        <dcterms:identifier xml:lang="en-us">{"id": "befdda39-36d3-4e67-a378-b4b32bf330b4", "value": "http://www.archesproject.org/58eaa6ef-1eeb-4b08-a363-39ee85638253"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "8a4b5606-7a96-4b3a-976f-d7e5311f4407", "value": "22ND DYNASTY"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en-us">{"id": "49216bc6-b13d-49ff-bf5d-559e358cc337", "value": "http://www.archesproject.org/c58dab86-454e-4723-be8f-505cb2d252b4"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/51016725-1b9f-4b5e-bef1-c8525b041cda">
+        <skos:prefLabel xml:lang="en">{"id": "7575292c-5e92-466a-b9a6-4880400d0f4e", "value": "21ST DYNASTY"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "28f79983-c2f3-43a0-a635-fcaf05dec997", "value": "http://www.archesproject.org/51016725-1b9f-4b5e-bef1-c8525b041cda"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cf52be3b-512c-4ecb-b971-4e4f71f4023a">
+        <dcterms:identifier xml:lang="en-us">{"id": "580e3ef7-20e7-478b-8154-ffaa3201ba49", "value": "http://www.archesproject.org/cf52be3b-512c-4ecb-b971-4e4f71f4023a"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "ff08c4b8-ac82-48fb-8f67-97d6d554dd67", "value": "24TH DYNASTY"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d88b2cb6-4722-4943-a2ce-a3c9c494aa59">
+        <dcterms:identifier xml:lang="en-us">{"id": "d9bf6f29-c79a-4873-bf2f-58b55332e5dd", "value": "http://www.archesproject.org/d88b2cb6-4722-4943-a2ce-a3c9c494aa59"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "ea3e9a97-7b26-42d3-8839-180f553b8170", "value": "25TH DYNASTY"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c444ed2f-bc36-4e84-8f54-4494fe5241a6">
+    <dcterms:identifier xml:lang="en-us">{"id": "ee1684b6-8b6d-4ab3-b0ad-a9dd47941265", "value": "http://www.archesproject.org/c444ed2f-bc36-4e84-8f54-4494fe5241a6"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "57fbc3ae-6039-4dc5-a2bc-76fcc8ca9182", "value": "REIGN OF THUTMOSIS I"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/96109bcc-b2b4-4a8b-9b6c-a65bc5605953">
+    <skos:prefLabel xml:lang="en">{"id": "e5a0e0b3-bb53-4daa-9560-45771568eac0", "value": "REIGN OF RAMESES IV"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "63a64224-6d76-438c-b03e-ad28fa3bf9d0", "value": "http://www.archesproject.org/96109bcc-b2b4-4a8b-9b6c-a65bc5605953"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9c544036-6729-44d8-a3e3-151230c138e5">
+    <dcterms:identifier xml:lang="en-us">{"id": "32a0a9f0-b2aa-4a6c-a166-ee29d1c85e0d", "value": "http://www.archesproject.org/9c544036-6729-44d8-a3e3-151230c138e5"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "df61880c-6252-4dc5-a5a5-c69f455eb625", "value": "MAMLUK"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/03ded993-7d3f-40de-a542-e87a1d5975a1">
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <skos:prefLabel xml:lang="en">{"id": "8bd29a1a-92ba-41b3-8a0f-dd261f816cfd", "value": "REIGN OF SETNAKHT"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "df759334-3b85-424a-b6f2-193e4bea35f1", "value": "http://www.archesproject.org/03ded993-7d3f-40de-a542-e87a1d5975a1"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6af02aa6-d95a-4006-9218-064032d968e8">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b18edf38-b418-482a-b1e3-a3bb9a516fb1">
+        <skos:prefLabel xml:lang="en">{"id": "c5c843fc-f783-4fe1-97d3-fec14e469c01", "value": "REIGN OF TAUSERT"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "e63fde3f-5cec-4241-9b57-fa89588c3b0a", "value": "http://www.archesproject.org/b18edf38-b418-482a-b1e3-a3bb9a516fb1"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/024bebfc-41ce-4c59-ba68-1150829f5c17">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "8391b9a0-3030-4d19-a266-d2cac27a523f", "value": "http://www.archesproject.org/024bebfc-41ce-4c59-ba68-1150829f5c17"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "590ba47a-e8f6-4b74-9c24-036f7b77f58f", "value": "REIGN OF RAMESES I"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/80acdd82-0879-49a2-8f2d-69389b6c33de">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "61d4dd8c-d2f8-412d-9a48-72daab9562d3", "value": "http://www.archesproject.org/80acdd82-0879-49a2-8f2d-69389b6c33de"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "de11cc03-d5f6-4711-8c3a-cbc92b18be67", "value": "REIGN OF SETI II"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/704590fc-844f-414e-a7b6-38ab3ac74512">
+        <dcterms:identifier xml:lang="en-us">{"id": "3a0d6c90-6b60-4dd1-8db4-9e92020a439b", "value": "http://www.archesproject.org/704590fc-844f-414e-a7b6-38ab3ac74512"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "cd4101af-8200-4b12-b7bc-0d4a65888aee", "value": "REIGN OF RAMESES II"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <skos:prefLabel xml:lang="en">{"id": "e7239c5e-71ef-4759-ac7a-396c7d1a8ce4", "value": "19TH DYNASTY"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/40c226f1-de24-4c5d-9b99-dc0336fde0d9">
+        <dcterms:identifier xml:lang="en-us">{"id": "f71b7862-e393-42da-b601-90660748b4d8", "value": "http://www.archesproject.org/40c226f1-de24-4c5d-9b99-dc0336fde0d9"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "67cb232a-2264-48f3-be41-e669cc63f0cd", "value": "REIGN OF AMENMESES"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en-us">{"id": "f11e96fb-e893-48f9-b34d-d4ed12fdb95c", "value": "http://www.archesproject.org/6af02aa6-d95a-4006-9218-064032d968e8"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2eae1aab-a019-481b-b24e-5a2bebf56c8c">
+        <dcterms:identifier xml:lang="en-us">{"id": "859beed1-2dae-48d6-a07a-3b39cbd14def", "value": "http://www.archesproject.org/2eae1aab-a019-481b-b24e-5a2bebf56c8c"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "b6f9037c-8b94-4486-aa25-e910e8ca481f", "value": "REIGN OF SIPTAH"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c649c92a-8546-4be9-abc8-8e37740b346d">
+        <skos:prefLabel xml:lang="en">{"id": "16593a20-5074-43f0-95f2-f2931f560671", "value": "REIGN OF MERENPTAH"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "e53be8a2-d558-40e7-b4ce-446e36a029ff", "value": "http://www.archesproject.org/c649c92a-8546-4be9-abc8-8e37740b346d"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0262d045-fe94-490d-a862-2a8e7c317332">
+        <skos:prefLabel xml:lang="en">{"id": "25f7f19e-b936-4394-b29d-86205c1b77fc", "value": "REIGN OF SETI I"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "3f9bfcf6-d41d-4c86-9494-0a7ebbf59e1f", "value": "http://www.archesproject.org/0262d045-fe94-490d-a862-2a8e7c317332"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/84f2eb93-c70f-4886-88d9-19a7bb392e33">
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <skos:prefLabel xml:lang="en">{"id": "84005132-3964-4e6c-ad66-73651d1b4e73", "value": "REIGN OF RAMESES VI"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "0ebb85a3-fb50-4e6f-9569-ec81e9bfd120", "value": "http://www.archesproject.org/84f2eb93-c70f-4886-88d9-19a7bb392e33"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/fd003e95-cd7c-4dd7-a37f-dd66bd14573f">
+    <skos:prefLabel xml:lang="en">{"id": "64005409-ceea-4726-b7ee-49b262768b4c", "value": "KINGDOM OF EGYPT"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "094b4f03-6afd-4a23-88f5-c544bf7b56c0", "value": "http://www.archesproject.org/fd003e95-cd7c-4dd7-a37f-dd66bd14573f"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a43f1b9f-725f-40e2-86c4-df80ec85a1e6">
+    <skos:prefLabel xml:lang="en">{"id": "2e158fc3-fdc0-4a5d-9e53-6bc52dbfb79b", "value": "REIGN OF HATSHEPSUT"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "74cdd329-f75d-462d-9743-7e6de085349f", "value": "http://www.archesproject.org/a43f1b9f-725f-40e2-86c4-df80ec85a1e6"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bcf3b8ec-4632-45ae-b5fa-e188b22e1d18">
+    <skos:prefLabel xml:lang="en">{"id": "3cbe7f54-e338-4f4f-bf80-bc0c7e6062ff", "value": "OTTOMAN"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "84aefcc7-f665-4bfa-9960-df5e0f18ed21", "value": "http://www.archesproject.org/bcf3b8ec-4632-45ae-b5fa-e188b22e1d18"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6ae138c8-add1-4dc5-9a26-59333b9e654d">
+    <dcterms:identifier xml:lang="en-us">{"id": "ebdf4663-96c2-43b5-a6be-2159c692ad0b", "value": "http://www.archesproject.org/6ae138c8-add1-4dc5-9a26-59333b9e654d"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <skos:prefLabel xml:lang="en">{"id": "bf2c23ee-eb36-473f-a898-63cf5e63e37c", "value": "REIGN OF AMENHOTEP I"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3640736d-0e53-46ad-a030-20aca16cd72e">
+    <dcterms:identifier xml:lang="en-us">{"id": "b2ab9686-4fd5-4747-b571-9acc3c26234e", "value": "http://www.archesproject.org/3640736d-0e53-46ad-a030-20aca16cd72e"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3f3b8959-14a6-42e5-90ce-ca6c344237bc">
+        <skos:prefLabel xml:lang="en">{"id": "b09af527-ecbf-408e-b586-8ee8a66dd724", "value": "PREHISTORIC &amp; PREDYNASTIC"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "d7ea7e1e-effd-4179-99de-cbd5a171351f", "value": "http://www.archesproject.org/3f3b8959-14a6-42e5-90ce-ca6c344237bc"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f8b6566d-2962-43cb-8438-ac94aba3f052">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "08aa7e4c-988f-4fae-9f03-b0c1f60dd195", "value": "OLD KINGDOM"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "acab80f3-9646-4b21-8c70-45f1831839e4", "value": "http://www.archesproject.org/f8b6566d-2962-43cb-8438-ac94aba3f052"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5c5074d6-569f-45eb-93c3-75894d80b333">
+        <dcterms:identifier xml:lang="en-us">{"id": "b5edabf7-3b23-4b84-8575-afaf8d5ced45", "value": "http://www.archesproject.org/5c5074d6-569f-45eb-93c3-75894d80b333"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "b9eab26a-8bfa-4cac-b638-089cb8c3aac8", "value": "MUHAMMAD ALI_KHEDIVATE"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/166937e1-f574-47fb-a7ef-3c0654c5a9ec">
+        <dcterms:identifier xml:lang="en-us">{"id": "624f6aff-9270-46d7-a8f5-05c47175452b", "value": "http://www.archesproject.org/166937e1-f574-47fb-a7ef-3c0654c5a9ec"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/ce013fa6-381e-4b7d-be18-fe163ee27c9b"/>
+        <skos:prefLabel xml:lang="en">{"id": "446ee39b-062a-418d-92a8-9557f4f859d5", "value": "LATE PERIOD"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7139fbdb-d581-4701-974b-184d87bdbb01">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "d93bce6a-d1b1-4c3b-87ad-905c09093518", "value": "EARLY DYNASTIC"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "b7ec81e3-aad1-43e7-b661-265bd147462d", "value": "http://www.archesproject.org/7139fbdb-d581-4701-974b-184d87bdbb01"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7624acf3-830c-41d1-b44d-12b3f563e936">
+        <skos:prefLabel xml:lang="en">{"id": "3b633f65-b38c-414d-9f1e-40a2381fe035", "value": "NEW KINGDOM"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/4492a6f6-b711-4e20-8d2c-1dccafec58c1"/>
+        <skos:narrower rdf:resource="http://localhost:8000/6af02aa6-d95a-4006-9218-064032d968e8"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "9183f45a-2d3d-4eb7-ba52-1d5b8044a6c4", "value": "http://www.archesproject.org/7624acf3-830c-41d1-b44d-12b3f563e936"}</dcterms:identifier>
+        <skos:narrower rdf:resource="http://localhost:8000/904de1ae-a0e9-4a8a-b018-ef231fd74867"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ff9631fe-af25-423c-8752-616fe1a54e15">
+        <dcterms:identifier xml:lang="en-us">{"id": "4c8387bf-1a74-44b2-8059-71787330ff6e", "value": "http://www.archesproject.org/ff9631fe-af25-423c-8752-616fe1a54e15"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "51da703a-355f-430c-9ff4-63739711f3fa", "value": "BYZANTINE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/e8041019-1ef7-46ec-a168-1d517b5d8072">
+        <skos:prefLabel xml:lang="en">{"id": "44aa94fd-20e6-482b-9e12-ad81fa283d31", "value": "FIRST INTERMEDIATE"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "02395182-a604-464e-b40a-77b856fbb78d", "value": "http://www.archesproject.org/e8041019-1ef7-46ec-a168-1d517b5d8072"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/fd003e95-cd7c-4dd7-a37f-dd66bd14573f"/>
+    <skos:narrower rdf:resource="http://localhost:8000/9c544036-6729-44d8-a3e3-151230c138e5"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f05670e4-7822-462d-98b7-d77d971d5f65">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "89e3abf1-2db8-473e-b7a9-ad3e91413ae2", "value": "http://www.archesproject.org/f05670e4-7822-462d-98b7-d77d971d5f65"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "4b52a570-32eb-429e-936c-f1dbe6e351c4", "value": "FATIMID"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/86c004a5-4263-446d-9ba3-51c90c7ace67">
+        <dcterms:identifier xml:lang="en-us">{"id": "a52aeaaa-d80b-4226-bd11-ca576deaa8a6", "value": "http://www.archesproject.org/86c004a5-4263-446d-9ba3-51c90c7ace67"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "97ac54fc-4bda-48b0-87a6-c6b799952d3c", "value": "REPUBLIC OF EGYPT"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d775649e-1c24-4e76-ab28-9c42737e0856">
+        <skos:prefLabel xml:lang="en">{"id": "d2581a54-6441-4e35-a94b-c3283921aac0", "value": "SULTANATE OF EGYPT"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "5ed30db9-735f-4d5a-96e9-cfc952d97313", "value": "http://www.archesproject.org/d775649e-1c24-4e76-ab28-9c42737e0856"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <skos:narrower rdf:resource="http://localhost:8000/bcf3b8ec-4632-45ae-b5fa-e188b22e1d18"/>
+    <skos:narrower rdf:resource="http://localhost:8000/c58dab86-454e-4723-be8f-505cb2d252b4"/>
+    <skos:prefLabel xml:lang="en">{"id": "65ad0b7b-6428-44e3-8c81-eac50fbdafea", "value": "CULTURAL PERIODS - EGYPT"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3afc6986-3729-45e4-bbd3-f42ce248429d">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "564b0a8a-92fc-42eb-92b3-2dc5db8232b2", "value": "AYYUBID"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "7026d28d-14a3-40d0-a7ee-9d2c0ac0e1b7", "value": "http://www.archesproject.org/3afc6986-3729-45e4-bbd3-f42ce248429d"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0308eebb-cfdf-453f-851b-796d41081db5">
+        <skos:prefLabel xml:lang="en">{"id": "379bc84b-6e7e-4c78-80b2-0ff0059da407", "value": "GRAECO-ROMAN"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "ca49eaaa-1ef5-45c2-be81-7f51f50b3a54", "value": "http://www.archesproject.org/0308eebb-cfdf-453f-851b-796d41081db5"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d8274770-96ca-4e35-8108-b047d893d35c">
+        <dcterms:identifier xml:lang="en-us">{"id": "634e29c5-35d6-40cb-bd4f-48d8c7bef357", "value": "http://www.archesproject.org/d8274770-96ca-4e35-8108-b047d893d35c"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "7ad4c98a-4eee-4220-a97c-937e696adac6", "value": "MIDDLE KINGDOM"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/16013b54-a8e4-4832-972a-8b6e869aedcb">
+        <skos:prefLabel xml:lang="en">{"id": "0257ad4c-03d7-4d65-97bf-466309ee3fb7", "value": "ARAB"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "79e823bf-724a-4942-880d-7f87e8c064fa", "value": "http://www.archesproject.org/16013b54-a8e4-4832-972a-8b6e869aedcb"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d5277bb8-d238-4c0d-8a83-be3abba9222e">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "cfa9522d-93bf-4bb0-b97b-ad1dfd03ecc9", "value": "SECOND INTERMEDIATE"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "4ba0ff1a-7848-4288-ac7c-1b18ca0e5ada", "value": "http://www.archesproject.org/d5277bb8-d238-4c0d-8a83-be3abba9222e"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/904de1ae-a0e9-4a8a-b018-ef231fd74867">
+    <skos:narrower rdf:resource="http://localhost:8000/84f2eb93-c70f-4886-88d9-19a7bb392e33"/>
+    <skos:narrower rdf:resource="http://localhost:8000/ec126937-0485-4888-94f1-57bfc4a60b52"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a8b9cb65-8d9a-4304-b35c-0886e86ae909">
+        <dcterms:identifier xml:lang="en-us">{"id": "2c352a70-4e29-4e7a-859f-33fbcf18b37e", "value": "http://www.archesproject.org/a8b9cb65-8d9a-4304-b35c-0886e86ae909"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "478204ab-7305-4360-9a59-7415190d8878", "value": "REIGN OF RAMESES VII"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/03ded993-7d3f-40de-a542-e87a1d5975a1"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "676d5245-10c2-45f7-b328-ed3153492cde", "value": "http://www.archesproject.org/904de1ae-a0e9-4a8a-b018-ef231fd74867"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d14957bd-b0fb-4410-87ed-e55a54ae05ee">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "b3c4059d-3980-4f27-aec6-d5a1e9511781", "value": "REIGN OF RAMESES XI"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "4be45dcc-fd4e-4d28-8741-fa8a4f540a0b", "value": "http://www.archesproject.org/d14957bd-b0fb-4410-87ed-e55a54ae05ee"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "f6eb3416-8164-47ef-9f2e-1ba19c666b9a", "value": "20TH DYNASTY"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d8b04ecf-5bfa-42db-9664-6ebe9f5e8380">
+        <skos:prefLabel xml:lang="en">{"id": "52d8d466-bdb4-450c-aae2-6e7c57625fe1", "value": "REIGN OF RAMESES IX"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "6ee1b2fc-5aeb-4e84-88c0-9a4d7bd3841b", "value": "http://www.archesproject.org/d8b04ecf-5bfa-42db-9664-6ebe9f5e8380"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/96109bcc-b2b4-4a8b-9b6c-a65bc5605953"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/be871799-b17a-4b36-8f02-139ab5319c47">
+        <dcterms:identifier xml:lang="en-us">{"id": "f4d3d3bd-5bef-4efa-a578-2d27b3feaf21", "value": "http://www.archesproject.org/be871799-b17a-4b36-8f02-139ab5319c47"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "97174988-4f93-470e-9ffd-b43bb003f428", "value": "REIGN OF RAMESES V"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/39d2758f-97b0-4799-bb27-c211c0cdd385">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "548d452f-3cf9-4f8a-a6a8-8dd8e13136db", "value": "REIGN OF RAMESES X"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "b002612c-04ce-46fd-b0d0-cf0210384df4", "value": "http://www.archesproject.org/39d2758f-97b0-4799-bb27-c211c0cdd385"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2e037ec2-2be8-4eb5-805c-d7f5223f8c9f">
+        <dcterms:identifier xml:lang="en-us">{"id": "44fd961c-9292-4a82-bf6e-47c7813703f3", "value": "http://www.archesproject.org/2e037ec2-2be8-4eb5-805c-d7f5223f8c9f"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "89bd1830-a637-4c4b-85ad-be2f57a01414", "value": "REIGN OF RAMESES VIII"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ec1b5b8c-041c-49a3-a703-e5fef7093707">
+    <skos:prefLabel xml:lang="en">{"id": "d518df06-fa97-4c61-8d78-bce13935da55", "value": "REIGN OF THUTMOSIS III"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "52bc5f9d-9d9a-41e7-8655-940af63f2263", "value": "http://www.archesproject.org/ec1b5b8c-041c-49a3-a703-e5fef7093707"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cbc0f3e5-bf9e-4a4b-a39d-9576a6bd4d3d">
+    <skos:prefLabel xml:lang="en">{"id": "998b6fef-ebb7-4928-8f7a-4ad7b532cb27", "value": "REIGN OF HOREMHEB"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "5e321557-c545-4fdf-9197-412b2ef88b1e", "value": "http://www.archesproject.org/cbc0f3e5-bf9e-4a4b-a39d-9576a6bd4d3d"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/73227515-6c2b-4286-b506-90573fa6b514">
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "5fd88dcf-9dde-41d8-859a-72039b955094", "value": "http://www.archesproject.org/73227515-6c2b-4286-b506-90573fa6b514"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d52834ce-b45a-4cf5-b2d6-5527c52c0507", "value": "REIGN OF TUTANKHAMEN"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4492a6f6-b711-4e20-8d2c-1dccafec58c1">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f3d00796-88e5-40d6-88ee-0b6b496ea204">
+        <dcterms:identifier xml:lang="en-us">{"id": "9364de84-e5e1-475f-869a-09d543ad3c20", "value": "http://www.archesproject.org/f3d00796-88e5-40d6-88ee-0b6b496ea204"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "68e65f16-1f44-49d4-a60a-13e5ead5c4ac", "value": "REIGN OF THUTMOSIS II"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/c444ed2f-bc36-4e84-8f54-4494fe5241a6"/>
+    <skos:narrower rdf:resource="http://localhost:8000/6ae138c8-add1-4dc5-9a26-59333b9e654d"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "3ae986ee-9203-4ca0-8f05-f15ba2970f2b", "value": "http://www.archesproject.org/4492a6f6-b711-4e20-8d2c-1dccafec58c1"}</dcterms:identifier>
+    <skos:narrower rdf:resource="http://localhost:8000/73227515-6c2b-4286-b506-90573fa6b514"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/88c3733a-08a0-44cd-9c16-5ff9153fd3c7">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "f539aed2-4bd0-452e-ac87-cfae8d10a3c2", "value": "REIGN OF AMENHOTEP II"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "9e3a73a9-d88b-4908-88bb-a809eaaa06b1", "value": "http://www.archesproject.org/88c3733a-08a0-44cd-9c16-5ff9153fd3c7"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "18318a22-d882-473a-870d-58091fc397d8", "value": "18TH DYNASTY"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a6cc903c-7dce-4009-843f-09c1ef331512">
+        <dcterms:identifier xml:lang="en-us">{"id": "d89c1c98-e56f-4523-8a42-6e22c8a1f961", "value": "http://www.archesproject.org/a6cc903c-7dce-4009-843f-09c1ef331512"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "9e6b2cb0-f76a-4c59-81b0-d24a51e88ff8", "value": "REIGN OF SEMENHKHARA"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/cbc0f3e5-bf9e-4a4b-a39d-9576a6bd4d3d"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/62e37d75-2caf-4b92-b0d6-a5ae66fd82b1">
+        <dcterms:identifier xml:lang="en-us">{"id": "7c6ef900-7de7-4d12-890f-78db941f0786", "value": "http://www.archesproject.org/62e37d75-2caf-4b92-b0d6-a5ae66fd82b1"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <skos:prefLabel xml:lang="en">{"id": "6699fc41-9f4a-4c3f-96e8-0882f2aec507", "value": "REIGN OF THUTMOSIS IV"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/75b6bcfc-765a-4ddf-83f5-62e3d55614e2">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "c1770ca3-599b-4207-aed5-7d7fb8d9c354", "value": "http://www.archesproject.org/75b6bcfc-765a-4ddf-83f5-62e3d55614e2"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "17fa7eee-57dd-40a5-85ce-47225cb7fe26", "value": "REIGN OF AMENHOTEP IV / AKHENATEN"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/52fcfe3e-717d-41f0-844c-d01f1544146e">
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "16149b95-5f1c-4faf-ad8b-60158395e142", "value": "http://www.archesproject.org/52fcfe3e-717d-41f0-844c-d01f1544146e"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "b234d8c4-bb4b-4283-85c5-f23d0f1e5246", "value": "REIGN OF AHMOSE I"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/f63b3c52-cd86-48e2-9648-a7343bf48f8c"/>
+    <skos:narrower rdf:resource="http://localhost:8000/a43f1b9f-725f-40e2-86c4-df80ec85a1e6"/>
+    <skos:narrower rdf:resource="http://localhost:8000/ec1b5b8c-041c-49a3-a703-e5fef7093707"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2d80dc45-8662-45d9-80ce-0c6826abf83f">
+        <skos:prefLabel xml:lang="en">{"id": "06b6bf0a-d8c7-43f2-a923-9f28b24ba9f5", "value": "REIGN OF AMENHOTEP III"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "79769a76-641a-4b3b-b0b8-76c653a0b8f6", "value": "http://www.archesproject.org/2d80dc45-8662-45d9-80ce-0c6826abf83f"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ce013fa6-381e-4b7d-be18-fe163ee27c9b">
+    <dcterms:identifier xml:lang="en-us">{"id": "1fa674ef-2e1a-4ddb-b562-9d1b6eda7757", "value": "http://www.archesproject.org/ce013fa6-381e-4b7d-be18-fe163ee27c9b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7b4ed8e0-0eb4-4170-b3e6-19475cfc1abc", "value": "26TH DYNASTY"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/666c7f1e-f49a-46bc-8f59-09ac43bc4859"/>
+  </skos:Concept>
+</rdf:RDF>

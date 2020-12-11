@@ -8118,7 +8118,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "id": "e2dd991e-0e45-11eb-92bf-025bb3594503"
+                    "id": "66672089-23a3-11eb-9d07-0610f586dfc5"
                 }
             ],
             "graphid": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
@@ -8134,24 +8134,6 @@
                     "legacygroupid": null,
                     "nodegroupid": "1b0076ca-e506-11e7-b2cc-02e0c6d7ad7a",
                     "parentnodegroup_id": "1b0076af-e506-11e7-b2cc-02e0c6d7ad7a"
-                },
-                {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "1b0076a9-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "1b0076ac-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
@@ -8180,8 +8162,8 @@
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
-                    "nodegroupid": "1b0076c4-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "parentnodegroup_id": "1b0076af-e506-11e7-b2cc-02e0c6d7ad7a"
+                    "nodegroupid": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
@@ -8192,121 +8174,29 @@
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
+                    "nodegroupid": "1b0076c4-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "parentnodegroup_id": "1b0076af-e506-11e7-b2cc-02e0c6d7ad7a"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
                     "nodegroupid": "1b0076c7-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "1b0076a9-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "1b0076ac-e506-11e7-b2cc-02e0c6d7ad7a",
                     "parentnodegroup_id": null
                 }
             ],
             "nodes": [
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": "Represents a single node in a graph",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Description",
-                    "nodegroup_id": "1b0076c1-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076d0-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "Represents a single node in a graph",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Time-Span Phase",
-                    "nodegroup_id": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076d8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "2f15a6b2-723b-48ab-b1d1-1d16c2180ef8"
-                    },
-                    "datatype": "concept",
-                    "description": "Represents a single node in a graph",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "External Source",
-                    "nodegroup_id": "1b0076a9-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076da-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Arches Event Phase",
-                    "nodegroup_id": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "date",
-                    "description": "Represents a single node in a graph",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "To Date",
-                    "nodegroup_id": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076e1-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Description Assignment",
-                    "nodegroup_id": "1b0076c1-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076c1-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
-                    "sortorder": 0
-                },
                 {
                     "config": {
                         "addToMap": false,
@@ -8346,44 +8236,6 @@
                     "nodeid": "1b0076ca-e506-11e7-b2cc-02e0c6d7ad7a",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "84e94d9a-0243-4bd8-8a84-3db288da9388"
-                    },
-                    "datatype": "concept",
-                    "description": "Represents a single node in a graph",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Address Type",
-                    "nodegroup_id": "1b0076b2-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076e3-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "Represents a single node in a graph",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Administration Subdivision",
-                    "nodegroup_id": "1b0076c4-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076c4-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
                     "sortorder": 0
                 },
                 {
@@ -8460,24 +8312,6 @@
                     "nodeid": "1b0076d9-e506-11e7-b2cc-02e0c6d7ad7a",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "date",
-                    "description": "Represents a single node in a graph",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "From Date",
-                    "nodegroup_id": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "nodeid": "1b0076de-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
                     "sortorder": 0
                 },
                 {
@@ -8691,6 +8525,26 @@
                     "sortorder": 0
                 },
                 {
+                    "config": {
+                        "fillColor": "rgba(42,234,106,0.8)"
+                    },
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Historical Events",
+                    "nodegroup_id": null,
+                    "nodeid": "1b0076cf-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
                     "config": null,
                     "datatype": "semantic",
                     "description": "Represents a single node in a graph",
@@ -8727,23 +8581,169 @@
                     "sortorder": 0
                 },
                 {
-                    "config": {
-                        "fillColor": "rgba(42,234,106,0.8)"
-                    },
-                    "datatype": "semantic",
-                    "description": "",
+                    "config": null,
+                    "datatype": "string",
+                    "description": "Represents a single node in a graph",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
-                    "istopnode": true,
-                    "name": "Historical Events",
-                    "nodegroup_id": null,
-                    "nodeid": "1b0076cf-e506-11e7-b2cc-02e0c6d7ad7a",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
-                    "parentproperty": "",
+                    "istopnode": false,
+                    "name": "Description",
+                    "nodegroup_id": "1b0076c1-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076d0-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "Represents a single node in a graph",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Time-Span Phase",
+                    "nodegroup_id": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076d8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "2f15a6b2-723b-48ab-b1d1-1d16c2180ef8"
+                    },
+                    "datatype": "concept",
+                    "description": "Represents a single node in a graph",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "External Source",
+                    "nodegroup_id": "1b0076a9-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076da-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Arches Event Phase",
+                    "nodegroup_id": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Description Assignment",
+                    "nodegroup_id": "1b0076c1-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076c1-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "84e94d9a-0243-4bd8-8a84-3db288da9388"
+                    },
+                    "datatype": "concept",
+                    "description": "Represents a single node in a graph",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Address Type",
+                    "nodegroup_id": "1b0076b2-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076e3-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "Represents a single node in a graph",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Administration Subdivision",
+                    "nodegroup_id": "1b0076c4-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076c4-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "date",
+                    "description": "Represents a single node in a graph",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "From Date",
+                    "nodegroup_id": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076de-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "date",
+                    "description": "Represents a single node in a graph",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "To Date",
+                    "nodegroup_id": "1b0076bb-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "nodeid": "1b0076e1-e506-11e7-b2cc-02e0c6d7ad7a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
                     "sortorder": 0
                 }
             ],
@@ -8754,8 +8754,8 @@
                 "cd37476e-e503-11e7-b2cc-02e0c6d7ad7a",
                 "23a06a1c-9fdc-11e7-b2cc-02e0c6d7ad7a",
                 "1b0076a8-e506-11e7-b2cc-02e0c6d7ad7a",
-                "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
                 "699410ac-e503-11e7-b2cc-02e0c6d7ad7a",
+                "b3dd28cc-0de1-11e8-ae2d-02b2d3297e3a",
                 "5f1b17b2-e506-11e7-b2cc-02e0c6d7ad7a"
             ],
             "resource_2_resource_constraints": [],
@@ -8786,8 +8786,8 @@
     ],
     "metadata": {
         "db": "PostgreSQL 12.1 (Ubuntu 12.1-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "0c1db54a6 2020-04-17 13:50:04 -0700",
+        "git hash": "b2dc29b5f 2020-10-27 15:09:45 -0700",
         "os": "Linux",
-        "os version": "5.3.0-1017-aws"
+        "os version": "5.3.0-1030-aws"
     }
 }
