@@ -2612,7 +2612,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "a4bfeafb-7a04-43fd-b812-331105ce78b3"
+                        "rdmCollection": "2f15a6b2-723b-48ab-b1d1-1d16c2180ef8"
                     },
                     "datatype": "concept",
                     "description": "Represents a single node in a graph",
