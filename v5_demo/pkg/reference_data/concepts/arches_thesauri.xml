@@ -2423,7 +2423,7 @@
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://localhost:8000/e92384f0-5d24-4179-a5ca-b68ee2888619">
-        <skos:prefLabel xml:lang="en-us">{"id": "8881d66b-a306-4541-a83c-a83b5938af1f", "value": "Mayan "}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-us">{"id": "8881d66b-a306-4541-a83c-a83b5938af1f", "value": "Mayan"}</skos:prefLabel>
         <dcterms:identifier xml:lang="en-us">{"id": "dfbf3b78-ab6d-4b8f-8d27-9986fd0a98b2", "value": "http://www.archesproject.org/e92384f0-5d24-4179-a5ca-b68ee2888619"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
       </skos:Concept>
@@ -2741,7 +2741,7 @@
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://localhost:8000/16fb287b-d025-43af-a8e4-4a48946c85b3">
-        <skos:prefLabel xml:lang="en-us">{"id": "0efc7928-68a9-4f01-87e3-4744d9021fbd", "value": "Modern, Early "}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-us">{"id": "0efc7928-68a9-4f01-87e3-4744d9021fbd", "value": "Modern, Early"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://localhost:8000/00000000-0000-0000-0000-000000000001"/>
         <dcterms:identifier xml:lang="en-us">{"id": "7a21b9c4-51bd-4600-85fc-46d7569662c3", "value": "http://www.archesproject.org/16fb287b-d025-43af-a8e4-4a48946c85b3"}</dcterms:identifier>
       </skos:Concept>
