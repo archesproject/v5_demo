@@ -1,9 +1,7 @@
 """
 Django settings for v5_demo project.
 """
-
 import os
-import arches
 import inspect
 
 try:
@@ -85,6 +83,7 @@ INSTALLED_APPS = (
     'oauth2_provider',
     'django_celery_results',
     'v5_demo',
+    'compressor',
 )
 
 ALLOWED_HOSTS = []
